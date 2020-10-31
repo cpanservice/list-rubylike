@@ -13,6 +13,5 @@ requires 'Exporter::Lite';
 build_requires 'Test::Class';
 build_requires 'FindBin::libs';
 
-auto_install;
 repository 'http://github.com/naoya/list-rubylike';
 WriteAll;
