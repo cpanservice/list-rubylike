@@ -1,3 +1,4 @@
+use lib '.';
 use inc::Module::Install 1.10;
 
 perl_version '5.8.1';
@@ -13,6 +14,5 @@ requires 'Exporter::Lite';
 build_requires 'Test::Class';
 build_requires 'FindBin::libs';
 
-auto_install;
 repository 'http://github.com/naoya/list-rubylike';
 WriteAll;
